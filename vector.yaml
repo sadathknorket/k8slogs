@@ -355,9 +355,8 @@ customConfig:
       content_encoding: gzip
       content_type: application/gzip
       filename_append_uuid: true
-      filename_extension: json
       encoding:
-        codec: json  
+        codec: avro  
       filename_time_format: "%s"
         ## grant_full_control: "6f54372b597b8115d3c94f792b713dd7c97e3533406b9f75e887d89406ff0b5a"
         ##grant_read: "6f54372b597b8115d3c94f792b713dd7c97e3533406b9f75e887d89406ff0b5a"
